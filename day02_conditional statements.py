@@ -27,6 +27,20 @@ elif(z==10):
 else:
     print("z is greater than 10")
 
+# 4. single line if statement / Ternary operator:
+# syntax:                             <var> = <val1> if <condition> else <val2>
+
+# example 1:
+
+fruit = input("enter fruit name:")
+eat = "good" if(fruit=="apple") else("bad")
+print(eat)
+
+# example 2:
+
+age = int(input("enter age:"))
+print("eligible")if(age>=18) else print("not eligible")
+
 
 # program to find largest number among three numbers:                               #  Output:
                                                                             
@@ -38,4 +52,5 @@ if(num1>num2 and num1>num3):
 elif(num2>num3):
     print(num2,"is the largest number")
 else:
+
     print(num3,"is the largest number")             
