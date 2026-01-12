@@ -13,7 +13,7 @@ I am focusing on building strong fundamentals step by step.
 - Input / Output
 - Conditional Statements
 - Loops
-- Functions
+- Functions / Recursion
 - Lists, Tuples, Dictionaries
 - File Handling
 - Object-Oriented Programming (OOP)
@@ -29,6 +29,7 @@ I am focusing on building strong fundamentals step by step.
 | Day 03 | Python Loops and control statements, while loop, for loop, break statement, continue statement, range, pass statement |
 | Day 04 | Python List and Tuples, List, List slicing, List functions, Tuple, Tuple slicing, Tuple function, Practice question |
 | Day 05 | Python Dictionary , Nested dictionary, Dictionary functions, Set, Set functions, Practice questions |
+| Day 06 |  Function definition, Types of Function, Function calling, Parameters and Arguments, Default arguments, Recursion, Practice problems |
 
 ---
 
