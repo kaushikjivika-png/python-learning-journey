@@ -97,7 +97,24 @@ while i<=num:
     i += 1
 print("sum = ",sum)
 
-    
+# question 9: Program to print Fibonacci series up to n terms.
 
+n = int(input("enter number of terms :"))
+a,b = 0,1
+count = 0
+while count < n:
+    print(a,end= " ")
+    next_term = a + b
+    a = b
+    b = next_term
+    count += 1                    
+
+# question 10: Program to find the factorial of a number.
+
+num = int(input("enter number : "))
+factorial = 1
+for i in range(1,num+1):
+    factorial *= i
+print("factorial =",factorial)                   
 
 
