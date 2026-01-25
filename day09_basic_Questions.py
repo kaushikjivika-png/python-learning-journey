@@ -117,4 +117,23 @@ for i in range(1,num+1):
     factorial *= i
 print("factorial =",factorial)                   
 
+# question 11: Function to check whether a number is prime or not
+def is_prime(n):
+    if n <= 1:
+        return False
 
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+
+    return True
+
+# question 12: Program to check the number of vowles in a string.
+
+name = "Jivika"
+vowles = "aeiouAEIOU"
+count = 0
+for char in name:
+    if char in vowles:
+        count += 1
+print("Number of vowles in",name,"is",count)
