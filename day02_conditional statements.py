@@ -54,3 +54,14 @@ elif(num2>num3):
 else:
 
     print(num3,"is the largest number")             
+
+# Check if Not :
+# To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
+
+# example:
+
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
+
+    
