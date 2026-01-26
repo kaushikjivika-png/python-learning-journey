@@ -137,3 +137,43 @@ for char in name:
     if char in vowles:
         count += 1
 print("Number of vowles in",name,"is",count)
+
+# queston 13: Given an integer n:
+
+# If n is odd, print Risk
+
+# If n is even and between 10 and 50 (inclusive), print Audit
+
+# If n is even and greater than 50, print Tax
+
+n = int(input())
+
+if n % 2 != 0:
+    print("Risk")
+elif 10 <= n <= 50:
+    print("Audit")
+else:
+    print("Tax")
+
+# question 14: Given an integer n:
+
+# If n is negative → print Invalid
+
+# If n is 0 → print Zero Case
+
+# If n is positive and even → print Positive Even
+
+# If n is positive and odd → print Positive Odd
+
+n = int(input())
+
+if n == 0:
+    print("Zero Case")
+elif n > 0:
+    if n % 2 == 0:
+        print("Positive Even")
+    else:
+        print("Positive Odd")
+else:
+    print("Invalid")
+
