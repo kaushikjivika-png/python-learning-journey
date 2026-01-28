@@ -177,3 +177,40 @@ elif n > 0:
 else:
     print("Invalid")
 
+# question 15: Three Integers Arithmetic
+
+# You are given three integers a, b, and c.
+
+# Print:
+
+# Sum of all three numbers
+
+# Average of the three numbers (integer value)
+
+# Maximum among the three numbers
+
+a = int(input())
+b = int(input())
+c = int(input())
+print("SUM : ",a + b + c)
+print("AVERAGE : " ,((a+b+c)//3))
+print("MAXIMUM : ",max(a,b,c))
+
+# question 16: Even–Odd Difference
+
+# You are given two integers a and b.
+
+# If both numbers are even, print their sum
+
+# If both numbers are odd, print their product
+
+# Otherwise, print their difference (a - b)
+
+a = int(input())
+b = int(input())
+if(a % 2 == 0 and b % 2 == 0):
+    print("SUM : ",a + b)
+elif(a % 2 != 0 and b % 2 != 0):
+    print("MULTIPLICATION :",a * b)
+else:
+    print("DIFFERENCE :", a - b)
