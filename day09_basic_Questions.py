@@ -249,6 +249,34 @@ else:
 
 a = int(input())
 b = int(input())
-
 print((a + b) // 2)   # integer average
 print((a + b) / 2)    # float average
+
+# question 19: Cubes till n
+
+# Given an integer n,
+# for all non-negative integers i < n, print i³ on a new line.
+
+n = int(input())
+for i in range(n):
+    print(i**3)
+
+# question 20: Even Squares
+
+# Given an integer n,
+# print the square of only even numbers less than n.
+
+n = int(input())
+for i in range(n):
+    if(i % 2 == 0):
+        print(i**2)
+
+# question 21: Squares in Reverse
+
+# Given an integer n,
+# print the square of numbers from n-1 to 0 (reverse order).
+
+n = int(input())
+for i in range(n-1,-1,-1):
+    print(i**2)
+
