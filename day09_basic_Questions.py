@@ -344,6 +344,36 @@ for i in range(1,n+1):
     for _ in range(i):
         print(i,end="")
 
+# question 27: 3D Grid with Sum Constraint
+
+# You are given integers x, y, z, and n.
+
+# Print all coordinates (i, j, k) where:  i + j + k ≤ n
+
+x = int(input())
+y = int(input())
+z = int(input())
+n = int(input())
+result = [[i,j,k]for i in range(x+1)for j in range(y+1)for k in range(z+1)if i+j+k<=n]
+print(result)
+
+# question 28: Square Grid Filter
+
+# You are given an integer n.
+
+# Print all pairs (i, j) where:
+
+# 0 ≤ i ≤ n
+# 0 ≤ j ≤ n
+# i² + j² ≤ n²
+
+x = int(input())
+y = int(input())
+n = int(input())
+result = [[i,j]for i in range(n+1)for j in range(n+1)if i**2 + j**2 <= n**2]
+print(result)
+
+
 
 
 
