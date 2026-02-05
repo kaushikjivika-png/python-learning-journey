@@ -373,6 +373,39 @@ n = int(input())
 result = [[i,j]for i in range(n+1)for j in range(n+1)if i**2 + j**2 <= n**2]
 print(result)
 
+# question 29: Second Lowest Number
+
+# You are given an integer n and a list of n integers.
+
+# Print the second lowest unique value.
+
+n = int(input())
+score = list(map(int,input().split()))
+orig_value = set(score)
+if len(orig_value)<3:
+    print("not enough unique values")
+else:
+    min_value = min(orig_value)
+    orig_value.remove(min_value)
+    print(min(orig_value))
+
+# question 30: Third Highest Number
+
+# You are given n integers.
+
+# Print the third highest unique value.
+
+n = int(input())
+score = list(map(int,input().split()))
+orig_val = set(score)
+if len(orig_val)<3:
+    print("not emough value to print")
+else:
+    max_val = max(orig_val)
+    orig_val.remove(max_val)
+    max_val = max(orig_val)
+    orig_val.remove(max_val)
+    print(max(orig_val))
 
 
 
